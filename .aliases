@@ -1,0 +1,17 @@
+# Shortcuts
+
+alias g="git"
+
+# List declared aliases, functions
+
+alias listaliases="alias | sed 's/=.*//'"
+alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non _prefixed functions
+
+# dir listing/traversal
+
+alias ls="ls -alF"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias -- -="cd -"                  # Go to previous dir with -

@@ -1,0 +1,4 @@
+ln -sv "/Users/tomshea/Projects/.dotfiles/.bashrc" ~
+ln -sv "/Users/tomshea/Projects/.dotfiles/.bash_profile" ~
+ln -sv "/Users/tomshea/Projects/.dotfiles/.aliases" ~
+ln -sv "/Users/tomshea/Projects/.dotfiles/.inputrc" ~
